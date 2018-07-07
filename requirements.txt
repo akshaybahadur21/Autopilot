@@ -1,0 +1,8 @@
+numpy
+matplotlib
+cv2
+keras
+dlib
+h5py
+scipy
+tensorflow
