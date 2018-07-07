@@ -1,8 +1,8 @@
-## Facial Recognition
-This code helps in facial recognition using facenets (https://arxiv.org/pdf/1503.03832.pdf). The concept of facenets was originally presented in a research paper.
-The main concepts talked about triplet loss function to compare images of different person.
-This concept uses inception network which has been taken from source and fr_utils.py is taken from deeplearning.ai for reference.
-I have added several functionalities of my own for providing stability and better detection. 
+## Autopilot
+This code helps in getting the steering angle of self driving car. The inspiraion is taken from [Udacity Self driving car](https://github.com/udacity/CarND-Behavioral-Cloning-P3) module as well [End to End Learning for Self-Driving Cars](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) module from NVIDIA
+
+The End to End Learning for Self-Driving Cars research paper can be found at (https://arxiv.org/abs/1604.07316)
+This repository uses convnets to predict steering angle according to the road. 
 
 
 ### Code Requirements
@@ -11,36 +11,31 @@ You can install Conda for python which resolves all the dependencies for machine
 ##### pip install requirements.txt
 
 ### Description
-A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiples methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database.
+An autonomous car (also known as a driverless car, self-driving car, and robotic car) is a vehicle that is capable of sensing its environment and navigating without human input. Autonomous cars combine a variety of techniques to perceive their surroundings, including radar, laser light, GPS, odometry, and computer vision. Advanced control systems interpret sensory information to identify appropriate navigation paths, as well as obstacles and relevant signage
 
-### Functionalities added
-1) Detecting face only when your eyes are opened. (Security measure)
-2) Using face align functionality from dlib to predict effectively while live streaming.
-
+### Dataset
+You can get the dataset at [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip)
 
 ### Python  Implementation
 
-1) Network Used- Inception Network
-2) Original Paper - Facenet by Google
+1) Network Used- Convolutional Network
+2) Inspiration - Udacity SDC and End to End Learning for Self-Driving Cars by Nvidia
 
 If you face any problem, kindly raise an issue
 
 ### Procedure
 
-1) If you want to train the network , run `Train-inception.py`, however you don't need to do that since I have already trained the model and saved it as 
-`face-rec_Google.h5` file which gets loaded at runtime.
-2) Now you need to have images in your database. The code check `/images` folder for that. You can either paste your pictures there or you can click it using web cam.
-For doing that, run `create-face.py` the images get stored in `/incept` folder. You have to manually paste them in `/images folder`
-3) Run `rec-feat.py` for running the application.
+1) First, run `LoadData.py` which will get dataset from folder and store it in a pickle file.
+2) Now you need to have the data, run `TrainModel.py` which will load data from pickle and augment it. After this, the training process begins.
+3) For testing it on the video, run `DriveApp.py`
 
 ### References:
  
- - Florian Schroff, Dmitry Kalenichenko, James Philbin (2015). [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
- - Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, Lior Wolf (2014). [DeepFace: Closing the gap to human-level performance in face verification](https://research.fb.com/wp-content/uploads/2016/11/deepface-closing-the-gap-to-human-level-performance-in-face-verification.pdf) 
- - The pretrained model we use is inspired by Victor Sy Wang's implementation and was loaded using his code: https://github.com/iwantooxxoox/Keras-OpenFace.
- - Our implementation also took a lot of inspiration from the official FaceNet github repository: https://github.com/davidsandberg/facenet  
+ - Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, Xin Zhang, Jake Zhao, Karol Zieba. [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
+ - [Behavioral Cloning Project](https://github.com/udacity/CarND-Behavioral-Cloning-P3) 
+ - This implementation also took a lot of inspiration from the Sully Chen github repository: https://github.com/SullyChen/Autopilot-TensorFlow  
 
-<img src="https://github.com/akshaybahadur21/Facial-Recognition-using-Facenet/blob/master/Face-Rec.gif">
+<img src="https://github.com/akshaybahadur21/Autopilot/blob/master/final.gif">
 
 
 
