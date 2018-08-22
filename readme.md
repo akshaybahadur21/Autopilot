@@ -1,4 +1,5 @@
-## Autopilot
+# Autopilot [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0000)](https://github.com/akshaybahadur21/Autopilot/blob/master/LICENSE.txt)  [![](https://img.shields.io/badge/Akshay-Bahadur-brightgreen.svg?colorB=ff0000)](https://akshaybahadur.com)
+
 This code helps in getting the steering angle of self driving car. The inspiraion is taken from [Udacity Self driving car](https://github.com/udacity/CarND-Behavioral-Cloning-P3) module as well [End to End Learning for Self-Driving Cars](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) module from NVIDIA
 
 The End to End Learning for Self-Driving Cars research paper can be found at (https://arxiv.org/abs/1604.07316)
@@ -6,6 +7,9 @@ This repository uses convnets to predict steering angle according to the road.
 
 1) Autopilot Version 1
 2) [Autopilot Version 2](https://github.com/akshaybahadur21/Autopilot/tree/master/Autopilot_V2)
+
+### Sourcerer
+[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/0)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/0)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/1)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/1)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/2)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/2)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/3)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/3)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/4)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/4)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/5)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/5)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/6)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/6)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/7)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/7)
 
 ### Code Requirements
 You can install Conda for python which resolves all the dependencies for machine learning.
