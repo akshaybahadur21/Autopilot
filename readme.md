@@ -8,9 +8,6 @@ This repository uses convnets to predict steering angle according to the road.
 1) Autopilot Version 1
 2) [Autopilot Version 2](https://github.com/akshaybahadur21/Autopilot/tree/master/Autopilot_V2)
 
-### Sourcerer
-[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/0)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/0)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/1)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/1)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/2)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/2)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/3)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/3)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/4)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/4)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/5)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/5)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/6)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/6)[![](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/images/7)](https://sourcerer.io/fame/akshaybahadur21/akshaybahadur21/Autopilot/links/7)
-
 ### Code Requirements
 You can install Conda for python which resolves all the dependencies for machine learning.
 
@@ -64,8 +61,3 @@ If you face any problem, kindly raise an issue
  - Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, Xin Zhang, Jake Zhao, Karol Zieba. [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
  - [Behavioral Cloning Project](https://github.com/udacity/CarND-Behavioral-Cloning-P3) 
  - This implementation also took a lot of inspiration from the Sully Chen github repository: https://github.com/SullyChen/Autopilot-TensorFlow  
-
-
-
-
-
