@@ -37,7 +37,7 @@ If you face any problem, kindly raise an issue
 2) Now you need to have the data, run `TrainModel.py` which will load data from pickle and augment it. After this, the training process begins.
 3) For testing it on the video, run `DriveApp.py`
 
-<img src="https://github.com/akshaybahadur21/Autopilot/blob/master/final.gif">
+<img src="https://github.com/akshaybahadur21/BLOB/blob/master/final.gif">
 
 ## Autopilot V2 (NVIDIA Dataset based on real world)
 
@@ -57,7 +57,7 @@ If you face any problem, kindly raise an issue
 2) Now you need to have the data, run `Train_pilot.py` which will load data from pickle. After this, the training process begins.
 3) For testing it on the video, run `AutopilotApp_V2.py`
 
-<img src="https://github.com/akshaybahadur21/Autopilot/blob/master/v2.gif">
+<img src="https://github.com/akshaybahadur21/BLOB/blob/master/v2.gif">
 
 ### References:
  
