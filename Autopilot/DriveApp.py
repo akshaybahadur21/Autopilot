@@ -20,11 +20,11 @@ def keras_process_image(img):
     return img
 
 
-steer = cv2.imread('steering_wheel_image.jpg', 0)
+steer = cv2.imread('resources/steering_wheel_image.jpg', 0)
 rows, cols = steer.shape
 smoothed_angle = 0
 
-cap = cv2.VideoCapture('run.mp4')
+cap = cv2.VideoCapture('resources/run.mp4')
 while (cap.isOpened()):
     ret, frame = cap.read()
     gray = cv2.resize((cv2.cvtColor(frame, cv2.COLOR_RGB2HSV))[:, :, 1], (40, 40))
