@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from keras.models import load_model
 
-model = load_model('Autopilot.h5')
+model = load_model('models/Autopilot.h5')
 
 def keras_predict(model, image):
     processed = keras_process_image(image)
