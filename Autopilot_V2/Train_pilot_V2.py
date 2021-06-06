@@ -43,7 +43,7 @@ def keras_model(image_x, image_y):
     model.add(Dense(1))
 
     model.compile(optimizer='adam', loss="mse")
-    filepath = "Autopilot_10.h5"
+    filepath = "models/Autopilot_10.h5"
     checkpoint = ModelCheckpoint(filepath, verbose=1, save_best_only=True)
     callbacks_list = [checkpoint]
 
@@ -71,7 +71,7 @@ def main():
               callbacks=callbacks_list)
     print_summary(model)
 
-    model.save('Autopilot_10.h5')
+    model.save('models/Autopilot_10.h5')
 
 
 main()
