@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from keras.models import load_model
 
-model = load_model('Autopilot.h5')
+model = load_model('models/Autopilot.h5')
 
 def keras_predict(model, image):
     processed = keras_process_image(image)
@@ -20,7 +20,7 @@ def keras_process_image(img):
     return img
 
 
-steer = cv2.imread('steering_wheel_image.jpg', 0)
+steer = cv2.imread('resources/steering_wheel_image.jpg', 0)
 rows, cols = steer.shape
 smoothed_angle = 0
 
