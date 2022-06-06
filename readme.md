@@ -49,6 +49,9 @@ An autonomous car (also known as a driverless car, self-driving car, and robotic
 ## Autopilot V2 (NVIDIA Dataset based on real world)
 <img src="https://github.com/akshaybahadur21/BLOB/blob/master/v2.gif">
 
+###### Made with ❤️ and 🦙 by Akshay Bahadur
+
+
 ## References 🔱
  
  - Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, Xin Zhang, Jake Zhao, Karol Zieba. [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
