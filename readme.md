@@ -52,6 +52,19 @@ An autonomous car (also known as a driverless car, self-driving car, and robotic
 ###### Made with ❤️ and 🦙 by Akshay Bahadur
 
 
+##📌 Cite Us
+
+To cite this guide, use the below format:
+```
+@article{autopilot,
+author = {Bahadur, Akshay},
+journal = {https://github.com/akshaybahadur21/Autopilot},
+month = {01},
+title = {{Autopilot}},
+year = {2018}
+}
+```
+
 ## References 🔱
  
  - Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, Xin Zhang, Jake Zhao, Karol Zieba. [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
